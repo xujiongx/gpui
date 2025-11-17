@@ -1,0 +1,13 @@
+[package]
+name = "my-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gpui = "0.2.2"
+gpui-component = { git = "https://github.com/longbridge/gpui-component", tag = "v0.4.0", features = ["webview"] }
+raw-window-handle = "0.6"
+
+[package.metadata.bundle]
+name = "朝暮记"
+identifier = "cn.xujiong.my-app"
